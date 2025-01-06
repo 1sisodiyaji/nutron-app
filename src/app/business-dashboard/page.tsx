@@ -1,10 +1,10 @@
-import {SidebarDemo}  from '@/components/Sidebar'
+import Dashboard from '@/components/Dashboard'
 import React from 'react'
 
 const BusinessDashboard = () => {
   return (
     <> 
-    <SidebarDemo/> 
+<Dashboard/>
     </>
   )
 }

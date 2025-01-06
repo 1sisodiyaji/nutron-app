@@ -112,8 +112,8 @@ const LoginForm: React.FC = () => {
           {loading ? 'Welcome to Nutron...' : 'Login'}
         </button>
 
-        <div className="text-start">
-        Don&apos;t Have a account !! No worry <Link href={'/auth/register'} className='hover:underline'>Create new </Link>
+        <div className="text-start text-sm">
+         Please <Link href={'/auth/register'} className='hover:underline'>Create new  Account</Link> 
         </div>
 
            
